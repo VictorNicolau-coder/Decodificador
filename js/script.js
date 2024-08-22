@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const noMessage = document.getElementById("noMessage")
+    const outputText = document.getElementById("outputText")
+    
     const btCrip = document.getElementById("btCrip")
     const btDescrip = document.getElementById("btDescrip")
     const btCopiar = document.getElementById("btCopiar")
@@ -17,8 +20,18 @@ function codificar() {
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
     
-    document.getElementById("outputText").value = ''
-    document.getElementById("outputText").value = textoCodificado
+    outputText.value = ''
+    outputText.value = textoCodificado
+
+    if (outputText.value === '') {
+        noMessage.style.display = 'block';
+        outputText.style.display = 'none'
+        btCopiar.style.display = 'none'; 
+    } else {
+        noMessage.style.display = 'none';
+        outputText.style.display = 'block'
+        btCopiar.style.display = 'inline-block';
+    }
 }
 
 function decodificar() {
@@ -30,12 +43,22 @@ function decodificar() {
         .replace(/ober/g, "o")
         .replace(/ufat/g, "u");
     
-    document.getElementById("outputText").value = ''
-    document.getElementById("outputText").value = texto
+    outputText.value = ''
+    outputText.value = texto
+
+    if (outputText.value === '') {
+        noMessage.style.display = 'block';
+        outputText.style.display = 'none'
+        btCopiar.style.display = 'none'; 
+    } else {
+        noMessage.style.display = 'none';
+        outputText.style.display = 'block'
+        btCopiar.style.display = 'inline-block';
+    }
 }
 
 function copiarTexto() {
-    let textoCodificado = document.getElementById("outputText").value;
+    let textoCodificado = outputText.value;
 
     navigator.clipboard.writeText(textoCodificado)
 }

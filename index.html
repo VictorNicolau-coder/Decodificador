@@ -5,21 +5,19 @@
         <title>Criptografador</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <script src="js/script.js" defer></script>
+
+        <script src="https://kit.fontawesome.com/c752419ab9.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
             
         <div id="box-principal">
-
             <div id="box-input">
-                <div id="box-logo">
-                    <h1>V</h1>
-                </div>
                 <div id="box-text">
                     <textarea id="inputText" placeholder="digite seu texto..."></textarea>
                 </div>
                 <div id="box-watchout">
-                    <label>Apenas letras minúsculas e sem acento</label>
+                    <label><i class="fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento</label>
                 </div>
                 <div id="box-buttons">
                     <button id="btCrip">Criptografar</button>
@@ -29,7 +27,12 @@
 
             <div id="box-output">
                 <div id="box-text">
-                    <textarea id="outputText"></textarea>
+                    <textarea id="outputText" disabled></textarea>
+                    <div id="noMessage">
+                        <i class="fa-solid fa-comments"></i>
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que deseja criptografar ou descriptografar</p>
+                    </div>
                 </div>
                 <div id="box-buttons">
                     <button id="btCopiar">Copiar</button>
