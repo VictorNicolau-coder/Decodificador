@@ -190,7 +190,7 @@ textarea:focus {
     color: rgb(91, 52, 134);
 }
 
-@media (max-width: 810px){
+@media screen and (max-width: 810px){
     body{
         background-color: rgb(234, 234, 240);
 
