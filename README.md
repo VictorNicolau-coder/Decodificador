@@ -1,6 +1,6 @@
 <h1>Criptografador de texto</h1>
 
-![Captura de tela de 2024-08-21 10-30-47](https://github.com/user-attachments/assets/03517e3c-53be-4e88-ac32-12e87d3a9806)
+![image](https://github.com/user-attachments/assets/7a3937ec-c0f1-4e4f-a7df-c92767a555e7)
 
 > Status: Desenvolvendo
 
