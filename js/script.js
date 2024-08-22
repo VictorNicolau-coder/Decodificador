@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const noMessage = document.getElementById("noMessage")
     const outputText = document.getElementById("outputText")
-    
+
     const btCrip = document.getElementById("btCrip")
     const btDescrip = document.getElementById("btDescrip")
     const btCopiar = document.getElementById("btCopiar")
