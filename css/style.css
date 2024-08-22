@@ -265,7 +265,7 @@ textarea:focus {
 
     #noMessage{width: 100%;}
     
-    #noMessage i{display: none;}
+    #noMessage i{font-size: 60px;}
     
     #noMessage h2{font-size: 18px;}
     
