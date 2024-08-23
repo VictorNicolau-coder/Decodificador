@@ -22,8 +22,8 @@ button{
     border: 2px solid rgb(91, 52, 134);
     border-radius: 20px;
 
-    height: 65px;
-    width: 350px;
+    height: 60px;
+    width: 30%;
 
     transition: background-color 0.3s ease-out;
 }
@@ -35,7 +35,51 @@ textarea{
     border: none;
 }
 
-textarea:focus {
+textarea:focus {outline: none;}
+
+dialog{
+    width: 550px;
+
+    border: none;
+    border-radius: .2rem;
+
+    text-align: center;
+}
+
+dialog::backdrop{
+    background: rgba(0, 0, 0, .9);
+}
+
+dialog h1{
+    color: rgb(91, 52, 134);
+    margin: auto;
+    font-size: 2rem;
+}
+
+dialog p{
+    color: rgb(91, 52, 134);
+    font-weight: 300;
+}
+
+dialog button{
+    color: white;
+
+    border: 2px solid rgb(91, 52, 134);
+    border-radius: 1rem;
+    background-color: rgb(91, 52, 134);
+
+    width: 80px;
+    height: 40px;
+
+    transition-duration: 0.4s;
+}
+
+dialog button:hover{
+    background-color: white;
+    color: rgb(91, 52, 134);
+}
+
+dialog button:focus{
     outline: none;
 }
 
@@ -44,16 +88,16 @@ textarea:focus {
     height: 90%;
     width: 95%;
 
-    box-shadow: 10px 10px 20px rgba(129, 128, 128, 0.5);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #box-input{
     height: 100%;
-    width: 60%;
-    margin-left: 200px;
+    width: 70%;
 }
 
 #box-input #box-text{
@@ -108,7 +152,7 @@ textarea:focus {
 #box-output{
     background-color: rgb(234, 234, 240);
     height: 95%;
-    width: 22%;
+    width: 25%;
 
     border-radius: 20px;
 }
@@ -182,6 +226,8 @@ textarea:focus {
 }
 
 #btCopiar{
+    margin-top: 10px;
+    width: 80%;
     display: none;
 }
 
@@ -193,9 +239,6 @@ textarea:focus {
 @media screen and (max-width: 810px){
     body{
         background-color: rgb(234, 234, 240);
-
-        display: flex;
-        align-items: center;
 
         margin-top: 120px;
     }
@@ -209,7 +252,7 @@ textarea:focus {
     
     #box-principal{
         background-color: transparent;
-        height: 1150px;
+        min-height: 1150px;
         width: 90%;
         
         display: flex;
@@ -217,6 +260,7 @@ textarea:focus {
         align-items: center;
 
         box-shadow: none;
+        margin-top: 20px;
     }
 
     #box-input{
@@ -257,7 +301,7 @@ textarea:focus {
         background-color: white;
         box-shadow: 5px 5px 10px rgba(129, 128, 128, 0.5);
 
-        height: 500px;
+        height: 400px;
         width: 100%;
 
         margin-bottom: 30px;

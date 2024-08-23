@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById("modal")
+    const btModal = document.getElementById("btModal")
+
     const noMessage = document.getElementById("noMessage")
     const outputText = document.getElementById("outputText")
 
@@ -9,6 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     btCrip.addEventListener('click', ()=>codificar())
     btDescrip.addEventListener('click', ()=>decodificar())
     btCopiar.addEventListener('click', ()=>copiarTexto())
+
+    modal.showModal()
+    btModal.addEventListener('click', ()=>{
+        modal.close();
+    });
+
 });
 
 function codificar() {
