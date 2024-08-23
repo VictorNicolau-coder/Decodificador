@@ -96,7 +96,13 @@ dialog button:focus{
 }
 
 #logo{
-    display: none;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: rgb(234, 234, 240);
+
+    display: flex;
+    position: absolute;
+    top: 20px;
 }
 
 #box-input{
