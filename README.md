@@ -1,6 +1,6 @@
 <h1>Criptografador de texto</h1>
 
-![image](https://github.com/user-attachments/assets/7a3937ec-c0f1-4e4f-a7df-c92767a555e7)
+![image](https://github.com/user-attachments/assets/0aabf2f2-62cd-4d11-aead-0e5f259148db)
 
 > Status: Desenvolvendo
 
