@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 html{
     height: 100%;
@@ -93,6 +93,10 @@ dialog button:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#logo{
+    display: none;
 }
 
 #box-input{
@@ -249,6 +253,10 @@ dialog button:focus{
         
         font-size: 12px;
     }
+
+    dialog{
+        width: 400px;
+    }
     
     #box-principal{
         background-color: transparent;
@@ -261,6 +269,16 @@ dialog button:focus{
 
         box-shadow: none;
         margin-top: 20px;
+    }
+
+    #logo{
+        font-family: "Pacifico", cursive;
+        font-size: 22px;
+        color: rgb(91, 52, 134);
+
+        display: flex;
+        position: absolute;
+        top: 0;
     }
 
     #box-input{
