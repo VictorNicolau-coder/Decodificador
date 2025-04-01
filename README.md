@@ -1,6 +1,6 @@
 <h1>Decodificador de texto</h1>
 
-![image](https://github.com/user-attachments/assets/bafde649-5075-4c2c-8551-eb13dc6ab338)
+![image](https://github.com/user-attachments/assets/8f24f3fc-f46d-4a00-a511-c4485f16ec58)
 
 > Status: Desenvolvendo
 
