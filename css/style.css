@@ -331,11 +331,11 @@ dialog button:focus{
 
         display: flex;
         position: absolute;
-        top: -25px;
+        top: 8px;
     }
 
     #box-input{
-        height: 620px;
+        height: 60px;
         width: 95%;
         margin: 0;
     }
@@ -345,9 +345,9 @@ dialog button:focus{
     }
 
     #box-input #box-text textarea{
-        height: 60%;
+        height: 50%;
         color: rgb(91, 52, 134);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #box-input #box-watchout{
