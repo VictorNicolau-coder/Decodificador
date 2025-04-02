@@ -331,7 +331,7 @@ dialog button:focus{
 
         display: flex;
         position: absolute;
-        top: 8px;
+        top: -15px;
     }
 
     #box-input{
